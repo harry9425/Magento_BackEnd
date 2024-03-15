@@ -20,4 +20,7 @@ class Index extends Template{
     public function getSubtitle() : string{
         return "Learning Magento....";
     }
+    public function getNodeHtml() : string{
+        return $this->getLayout()->createBlock(Note::class)->toHtml();
+    }
 }
