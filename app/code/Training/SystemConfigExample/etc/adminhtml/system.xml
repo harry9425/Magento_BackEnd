@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+    <system>
+        <tab id="training" sortOrder="10">
+            <label>Training</label>
+        </tab>
+        <section id="training_example" type="text" sortOrder="1" showInDefault="1" showInWebsite="1" showInStore="1">
+            <tab>training</tab>
+            <resource>Training_SystemConfigExample::config</resource> 
+            <label>Training System  Example</label>
+            <group id="system" type="text" sortOrder="1" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>System Configuration</label>
+                    <field id="config1" sortOrder="1" type="text" showInDefault="1" showInWebsite="1" showInStore="1">
+                        <label>Config1</label>
+                    </field>
+                </group>
+        </section>
+    </system>
+</config>
