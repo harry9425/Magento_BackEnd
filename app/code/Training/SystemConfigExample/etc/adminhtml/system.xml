@@ -12,6 +12,19 @@
                     <label>System Configuration</label>
                     <field id="config1" sortOrder="1" type="text" showInDefault="1" showInWebsite="1" showInStore="1">
                         <label>Config1</label>
+                        <comment>This is config1</comment>
+                    </field>
+                    <field id="config2" sortOrder="1" type="text" showInDefault="1">
+                        <label>Config2</label>
+                        <comment>This is config2 for global only</comment>
+                    </field>
+                    <field id="config3" sortOrder="1" type="text" showInDefault="1" showInWebsite="1">
+                        <label>Config3</label>
+                        <comment>This is config3 for web only</comment>
+                    </field>
+                    <field id="config4" sortOrder="1" type="text" showInDefault="1" showInStore="1">
+                        <label>Config4</label>
+                        <comment>This is config4 for store only</comment>
                     </field>
                 </group>
         </section>
