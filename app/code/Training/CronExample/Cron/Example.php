@@ -16,6 +16,7 @@ class Example{
     }
 
     public function execute(){
+        return;
         $this->logger->info('Starting running cron example');
         sleep(2);
         $this->logger->info('cron example finished');
